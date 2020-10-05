@@ -1,0 +1,171 @@
+.header {
+    background-color: F7F7F7;
+    height: 100px;
+}
+ul {
+    background-color:F7F7F7;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    color:#0A0A0A ;
+    float: right;
+
+}
+li {
+    display: inline;
+    float: left;
+
+}
+li a {
+display: block;
+text-decoration: none;
+padding: 12px;
+color: black;
+text-align: center;
+}
+li a:hover {
+    background-color: #DBCFF4;
+  }
+#logo-image {
+    height: 50px;
+    font-weight: auto;
+}
+.hero-image{
+    position: relative;
+    height: auto;
+    width: 100%;
+    color: #0A0A0A;
+}
+
+
+.introduction-line {
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 0px;
+    font-size: 36px;
+}
+.second-caption {
+    color: black;
+    padding-left:40px;
+    font-size: 26px;
+    padding-top:40px; 
+}
+
+.third-caption {
+    font-size: 22px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px ;
+}
+
+
+
+.button {
+    position: absolute;
+    bottom: 20px;
+    padding-left: 20px;
+    color: #0A0A0A;
+    border: none;
+}
+.first-grid-container {
+    display: grid;
+    height: 350px;
+    grid-template-columns: 33% auto;
+    margin: 15px;
+    margin-left: 37.5px;
+    overflow: hidden;
+    
+}
+.yellow-bottle {
+    grid-column: 1;
+    height: 350px;
+    width: auto;
+}
+.article {
+    grid-column: 2;
+    padding: 70px;
+} 
+
+
+p {
+font-size: 16px; 
+font-family: Arial, Helvetica, sans-serif;
+width: 600px;
+margin: 40px;
+text-align: left;
+
+}
+.second-grid-container {
+    display: grid;
+    height: 400px;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+    overflow: hidden;
+    margin: 0px;
+
+}
+.second-grid-container p {
+    margin: 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+.image-box {
+    height: 70%;
+    width: 100%;
+    margin-left: 30px;
+}
+.bottles {
+padding: 7.5px;
+}
+.collection {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    column-count: 4;
+    justify-content: space-between;    
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+.brand-collection-text {
+    width: auto;
+    grid-column: 1;
+ 
+}
+.brand-collection-text p {
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+   
+}
+.brand-one {
+    grid-column: 2;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 370px;
+
+}
+.brand-two {
+    grid-column: 3;
+    width: 100%;
+    width: 370px;
+}
+.brand-three {
+    grid-column: 4;
+    width: 100%;
+    width: 370px;
+   
+}.brand-image {
+    height: 200px;
+    width: auto;
+    border: 1px;
+}
+
+
+
